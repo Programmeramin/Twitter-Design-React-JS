@@ -1,0 +1,283 @@
+.sign-area{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(204, 204, 204, 0.8), rgba(185, 185, 185, 0.8));
+    position: fixed;
+    z-index: 9999999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    .sign-container{
+        width: 600px;
+        background-color: #fff;
+        box-shadow: --fb-shadow;
+        border-radius: 10px;
+        align-items: center;
+
+        .sign-header{
+            display: flex;
+
+            a{
+                padding: 15px 10px;
+                color: rgb(63, 63, 63);
+                   font-size: 30px;
+
+            }
+
+            img{
+                padding: 10px;
+                width: 100px;
+                height: 100px;
+                margin: auto;
+                
+            }
+
+        }
+
+        h3{
+            width: 62%;
+            margin: auto;
+            font-size: 30px;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+
+        .sign-body{
+            width: 80%;
+            margin: auto;
+
+
+            .google-login{
+                width: 80%;
+                margin: auto;
+                display: flex;
+                justify-content: space-between;
+                 border: 1px solid #cfcfcf;
+                 border-radius: 50px;
+                 align-items: center;
+                 padding: 0px 8px;
+                 margin-bottom: 20px;
+                 cursor: pointer;
+
+                 &:hover{
+                    background-color: #f8faff;
+                 }
+
+                a{
+                    img{
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 100%;
+                        align-items: center;
+                       margin-top: 4px;
+                    }
+                }
+
+                .sign{
+                    width: 100%;
+
+                    p{
+                        font-size: 10px;
+                        font-weight: 600;
+                        color: rgb(46, 46, 45);
+                        margin: 10px;
+                        margin: 0px 5px;
+                        font-family: poppins;
+
+
+                        
+
+                        &:first-child{
+                            margin-bottom: 0px;
+                            transition: 0.4s ease-in-out;
+                        }
+
+                    }
+
+                }
+
+            }
+
+            .apple-sign{
+                display: flex;
+                width: 80%;
+                margin: auto;
+                border: 1px solid rgb(207, 207, 207);
+                padding: 0px 8px;
+                border-radius: 50px;
+                align-items: center;
+                font-size: 20px;
+                margin-bottom: 8px;
+
+                &:hover{
+                    background-color: #e6e6e6;
+                    transition: 0.4s ease-in-out;
+                }
+                
+                
+                a{
+                    color: black;
+                    font-size: 14px;
+                    font-weight: 600;
+                    font-family: poppins;
+                    margin: auto;
+                    padding: 7px;
+                    text-decoration: none;
+                    position: relative;
+
+                    svg{
+                        font-size: 25px;
+                        align-items: center;
+                        margin-right: 2px;
+                        margin: 0px;
+                        position: absolute;
+                        margin-top: 0px;
+                        left: -19px;
+                    }
+
+                }
+
+            }
+
+            .border{
+                width: 75%;
+                margin-bottom: 15px;
+                margin: auto;
+
+                .bd-ree{
+                    width: 95%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    align-content: center;
+                    margin-bottom: 8px;
+
+                   .border-1{
+                    width: 48%;
+                    height: 1px;
+                    background-color: #e0e0e0;
+                    margin: 0px 0px;
+                   
+
+                   }
+
+                   .border-2{
+                    width: 10%;
+                    
+                    .border-middle{
+                      width: 100%;
+                      text-align: center;
+                      margin-left: -6px;
+                      color: #8f8f8f;
+                      padding: 0px;
+                      
+                    }
+
+                    span{
+                        font-size: 13px;
+                        font-family: poppins;
+
+                        
+                    }
+
+                   }
+
+                   .border-3{
+                    width: 44%;
+                    height: 1px;
+                    background-color: #e0e0e0;
+                    margin: 0px -14px;
+                    
+                    
+                    
+
+                   }
+
+                }
+                
+            }
+
+            .moe{
+                width: 80%;
+                margin: auto;
+                 margin-bottom: 22px;
+                input{
+                    width: 100%;
+                    padding: 10px 10px;
+                    font-size: 15px;
+                    border-radius: 10px;
+                    border: 1px solid rgb(94, 94, 94);
+                }
+
+            }
+
+
+            .sign-in{
+                width: 80%;
+                margin: auto;
+                padding: 12px;
+                background-color: #87898c;
+                border-radius: 20px;
+                box-shadow: #ccc;
+                margin-bottom: 20px;
+                text-align: center;
+        
+                a{
+                    color: #fff;
+        
+                    &:hover{
+                        text-decoration: none;
+                    }
+        
+                }
+        
+              }
+
+              .Forgot{
+                width: 80%;
+                margin: auto;
+                padding: 8px;
+                background-color: #f3f3f3;
+                border-radius: 20px;
+                box-shadow: #ccc;
+                margin-bottom: 20px;
+                text-align: center;
+                border: 1px solid rgb(139, 139, 139);
+                margin-bottom: 40px;
+                
+                &:hover{
+                    background-color: #cfcfcf;
+                    transition: 0.4s ease-in-out;
+                    transition-duration: 0.5s;
+                }
+        
+                a{
+                    color: #0e0e0e;
+        
+                    &:hover{
+                       
+                        text-decoration: none;
+                    }
+        
+                }
+        
+              }
+
+              .dont-have-an{
+                  margin-bottom: 60px;
+                  text-align: center;
+                  font-size: 18px;
+
+                  a{
+                    color: 155d90;
+                  }
+
+              }
+
+        }
+
+    }
+
+}
